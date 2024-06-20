@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Taxas</title>
+</head>
+<body>
+    <div class="bandeiras" id="bandeiras">
+        <div class="bandeira" id="visa-master">VISA OU MASTER</div>
+        <div class="bandeira" id="outras-bandeiras">OUTRAS BANDEIRAS</div>
+    </div>
+
+    <div id="main" class="main">
+        <h1>Consultar Taxas Visa ou Master</h1>
+        <div class="form">
+            <label id="" for="receber">Quanto quer Receber: </label>
+            <input type="number" id="receber" name="receber">
+            <button type="button" id="sendBtn">Calcular</button>
+        </div>
+
+        <table border="1">
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Parcelas</th>
+            </tr>
+            <tr>
+                <td class="taxa">Deb</td>
+                <td id="n0"></td>
+                <td id="p0"></td>
+            </tr>
+            <tr>
+                <td class="taxa">1x</td>
+                <td id="n1"></td>
+                <td id="p1"></td>
+            </tr>
+            <tr>
+                <td class="taxa">2x</td>
+                <td id="n2"></td>
+                <td id="p2"></td>
+            </tr>
+            <tr>
+                <td class="taxa">3x</td>
+                <td id="n3"></td>
+                <td id="p3"></td>
+            </tr>
+            <tr>
+                <td class="taxa">4x</td>
+                <td id="n4"></td>
+                <td id="p4"></td>
+            </tr>
+            <tr>
+                <td class="taxa">5x</td>
+                <td id="n5"></td>
+                <td id="p5"></td>
+            </tr>
+            <tr>
+                <td class="taxa">6x</td>
+                <td id="n6"></td>
+                <td id="p6"></td>
+            </tr>
+            <tr>
+                <td class="taxa">7x</td>
+                <td id="n7"></td>
+                <td id="p7"></td>
+            </tr>
+            <tr>
+                <td class="taxa">8x</td>
+                <td id="n8"></td>
+                <td id="p8"></td>
+            </tr>
+            <tr>
+                <td class="taxa">9x</td>
+                <td id="n9"></td>
+                <td id="p9"></td>
+            </tr>
+            <tr>
+                <td class="taxa">10x</td>
+                <td id="n10"></td>
+                <td id="p10"></td>
+            </tr>
+            <tr>
+                <td class="taxa">11x</td>
+                <td id="n11"></td>
+                <td id="p11"></td>
+            </tr>
+            <tr>
+                <td class="taxa">12x</td>
+                <td id="n12"></td>
+                <td id="p12"></td>
+            </tr>
+            <tr>
+                <td class="taxa">13x</td>
+                <td id="n13"></td>
+                <td id="p13"></td>
+            </tr>
+            <tr>
+                <td class="taxa">14x</td>
+                <td id="n14"></td>
+                <td id="p14"></td>
+            </tr>
+            <tr>
+                <td class="taxa">15x</td>
+                <td id="n15"></td>
+                <td id="p15"></td>
+            </tr>
+            <tr>
+                <td class="taxa">16x</td>
+                <td id="n16"></td>
+                <td id="p16"></td>
+            </tr>
+            <tr>
+                <td class="taxa">17x</td>
+                <td id="n17"></td>
+                <td id="p17"></td>
+            </tr>
+            <tr>
+                <td class="taxa">18x</td>
+                <td id="n18"></td>
+                <td id="p18"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="other" class="other">
+        <h1>Consultar Taxas Outras Bandeiras</h1>
+        <div class="form">
+            <label id="" for="receber">Quanto quer Receber: </label>
+            <input type="number" id="receberOther" name="receber">
+            <button type="button" id="sendBtnOther">Calcular</button>
+        </div>
+
+        <table border="1">
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Parcelas</th>
+            </tr>
+            <tr>
+                <td class="taxa">Deb</td>
+                <td id="other-n0"></td>
+                <td id="other-p0"></td>
+            </tr>
+            <tr>
+                <td class="taxa">1x</td>
+                <td id="other-n1"></td>
+                <td id="other-p1"></td>
+            </tr>
+            <tr>
+                <td class="taxa">2x</td>
+                <td id="other-n2"></td>
+                <td id="other-p2"></td>
+            </tr>
+            <tr>
+                <td class="taxa">3x</td>
+                <td id="other-n3"></td>
+                <td id="other-p3"></td>
+            </tr>
+            <tr>
+                <td class="taxa">4x</td>
+                <td id="other-n4"></td>
+                <td id="other-p4"></td>
+            </tr>
+            <tr>
+                <td class="taxa">5x</td>
+                <td id="other-n5"></td>
+                <td id="other-p5"></td>
+            </tr>
+            <tr>
+                <td class="taxa">6x</td>
+                <td id="other-n6"></td>
+                <td id="other-p6"></td>
+            </tr>
+            <tr>
+                <td class="taxa">7x</td>
+                <td id="other-n7"></td>
+                <td id="other-p7"></td>
+            </tr>
+            <tr>
+                <td class="taxa">8x</td>
+                <td id="other-n8"></td>
+                <td id="other-p8"></td>
+            </tr>
+            <tr>
+                <td class="taxa">9x</td>
+                <td id="other-n9"></td>
+                <td id="other-p9"></td>
+            </tr>
+            <tr>
+                <td class="taxa">10x</td>
+                <td id="other-n10"></td>
+                <td id="other-p10"></td>
+            </tr>
+            <tr>
+                <td class="taxa">11x</td>
+                <td id="other-n11"></td>
+                <td id="other-p11"></td>
+            </tr>
+            <tr>
+                <td class="taxa">12x</td>
+                <td id="other-n12"></td>
+                <td id="other-p12"></td>
+            </tr>
+            <tr>
+                <td class="taxa">13x</td>
+                <td id="other-n13"></td>
+                <td id="other-p13"></td>
+            </tr>
+            <tr>
+                <td class="taxa">14x</td>
+                <td id="other-n14"></td>
+                <td id="other-p14"></td>
+            </tr>
+            <tr>
+                <td class="taxa">15x</td>
+                <td id="other-n15"></td>
+                <td id="other-p15"></td>
+            </tr>
+            <tr>
+                <td class="taxa">16x</td>
+                <td id="other-n16"></td>
+                <td id="other-p16"></td>
+            </tr>
+            <tr>
+                <td class="taxa">17x</td>
+                <td id="other-n17"></td>
+                <td id="other-p17"></td>
+            </tr>
+            <tr>
+                <td class="taxa">18x</td>
+                <td id="other-n18"></td>
+                <td id="other-p18"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgb(73, 0, 73), black);
+    height: 130vh;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;   
+    width: 100%;
+}
+
+.bandeiras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20%;
+    gap: 32px;
+}
+
+.bandeira {
+    border-radius: 4px;
+    background-color: rgb(31, 0, 66);
+    border: 1px solid rgb(255, 255, 255);
+    width: 60%;
+    padding: 12px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.main {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.other {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+}
+
+table {
+    margin: auto;
+    margin-top: 48px;
+    width: 100%;
+    outline: none;
+}
+
+th {
+    padding: 4px 0;
+}
+
+td {
+    padding: 4px 0;
+    text-align: center;
+}
+
+#receber {
+    padding: 8px ;
+    font-size: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.form #sendBtn {
+    margin-top: 24px;
+    padding: 8px 0;
+    width: 50%;
+    margin: auto;
+}
+
+#bandeiras {
+    display: flex;
+}
+
+#main {
+    display: none;
+}
+
+#other {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    #receber {
+        width: 90%;
+    }
+    .form {
+        margin: auto;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.416);
+        padding: 20px 10px 20px 20px;
+        border-radius: 8px;
+        box-shadow: rgba(109, 108, 108, 0.35) 0px 5px 15px;
+    }
+
+    .main {
+        width: 40%;
+    }
+}
+
