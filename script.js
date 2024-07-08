@@ -24,14 +24,10 @@ outrasBandeiras.addEventListener('click', otherBandeira);
 // CONDICIONAL PARA SELECIONAR A BANDEIRA DO CARTÃO
 
 
-
-
 // CALCULO PARA TAXAS DE OUTRAS BANDEIRAS
 
 let receberOther = document.getElementById('receberOther');
 const sendBtnOther = document.getElementById('sendBtnOther');
-
-
 
 const OtherN0 = document.getElementById('other-n0');
 const OtherN1 = document.getElementById('other-n1');
@@ -77,25 +73,25 @@ const OtherP18 = document.getElementById('other-p18')
 function calcularOther () {
     let receberValorOther = parseFloat(receberOther.value);
 
-    let Othervalue0 = receberValorOther / (100 - 1.20) * 100;
-    let Othervalue1 = receberValorOther / (100 - 4) * 100;
-    let Othervalue2 = receberValorOther / (100 - 4.09) * 100;
-    let Othervalue3 = receberValorOther / (100 - 4.78) * 100;
-    let Othervalue4 = receberValorOther / (100 - 5.463) * 100;
-    let Othervalue5 = receberValorOther / (100 - 6.15) * 100;
-    let Othervalue6 = receberValorOther / (100 - 6.817) * 100;
-    let Othervalue7 = receberValorOther / (100 - 7.47) * 100;
-    let Othervalue8 = receberValorOther / (100 - 8.135) * 100;
-    let Othervalue9 = receberValorOther / (100 - 8.785) * 100;
-    let Othervalue10 = receberValorOther / (100 - 9.425) * 100;
-    let Othervalue11 = receberValorOther / (100 - 10.06) * 100;
-    let Othervalue12 = receberValorOther / (100 - 10.7) * 100;
-    let Othervalue13 = receberValorOther / (100 - 11.325) * 100;
-    let Othervalue14 = receberValorOther / (100 - 11.94) * 100;
-    let Othervalue15 = receberValorOther / (100 - 12.56) * 100;
-    let Othervalue16 = receberValorOther / (100 - 13.18) * 100;
-    let Othervalue17 = receberValorOther / (100 - 13.79) * 100;
-    let Othervalue18 = receberValorOther / (100 - 14.375) * 100;
+    let Othervalue0 = receberValorOther / 0.9984
+    let Othervalue1 = receberValorOther / 0.9601
+    let Othervalue2 = receberValorOther /0.9470
+    let Othervalue3 = receberValorOther / 0.9401
+    let Othervalue4 = receberValorOther / 0.9331
+    let Othervalue5 = receberValorOther / 0.9265
+    let Othervalue6 = receberValorOther / 0.9198
+    let Othervalue7 = receberValorOther / 0.9053
+    let Othervalue8 = receberValorOther / 0.8987
+    let Othervalue9 = receberValorOther / 0.8922
+    let Othervalue10 = receberValorOther / 0.8857
+    let Othervalue11 = receberValorOther / 0.8794
+    let Othervalue12 = receberValorOther / 0.8730
+    let Othervalue13 = receberValorOther / 0.8668
+    let Othervalue14 = receberValorOther / 0.8606
+    let Othervalue15 = receberValorOther / 0.8544
+    let Othervalue16 = receberValorOther / 0.8483
+    let Othervalue17 = receberValorOther / 0.8423
+    let Othervalue18 = receberValorOther / 0.8363
 
     let Otherparcela0 = "Não se aplica";
     let Otherparcela1 = Othervalue1 / 1;
@@ -219,25 +215,25 @@ const p18 = document.getElementById('p18');
 function calcular () {
     let receberValor = parseFloat(receber.value);
 
-    let value0 = receberValor / (100 - 3) * 100;
-    let value1 = receberValor / (100 - 3) * 100;
-    let value2 = receberValor / (100 - 3.06) * 100;
-    let value3 = receberValor / (100 - 3.74) * 100;
-    let value4 = receberValor / (100 - 4.42) * 100;
-    let value5 = receberValor / (100 - 5.11) * 100;
-    let value6 = receberValor / (100 - 5.779) * 100;
-    let value7 = receberValor / (100 - 5.89) * 100;
-    let value8 = receberValor / (100 - 6.55) * 100;
-    let value9 = receberValor / (100 - 7.2) * 100;
-    let value10 = receberValor / (100 - 7.84) * 100;
-    let value11 = receberValor / (100 - 8.48) * 100;
-    let value12 = receberValor / (100 - 9.12) * 100;
-    let value13 = receberValor / (100 - 9.73) * 100;
-    let value14 = receberValor / (100 - 10.35) * 100;
-    let value15 = receberValor / (100 - 10.98) * 100;
-    let value16 = receberValor / (100 - 11.59) * 100;
-    let value17 = receberValor / (100 - 12.19) * 100;
-    let value18 = receberValor / (100 - 12.78) * 100;
+    let value0 = receberValor / 0.9901
+    let value1 = receberValor / 0.9701
+    let value2 = receberValor / 0.9591
+    let value3 = receberValor / 0.9522
+    let value4 = receberValor / 0.9453
+    let value5 = receberValor / 0.9386
+    let value6 = receberValor / 0.9319
+    let value7 = receberValor / 0.9233
+    let value8 = receberValor / 0.9167
+    let value9 = receberValor / 0.9102
+    let value10 = receberValor / 0.9037;
+    let value11 = receberValor / 0.8974
+    let value12 = receberValor / 0.8910
+    let value13 = receberValor / 0.8768
+    let value14 = receberValor / 0.8706
+    let value15 = receberValor / 0.8444
+    let value16 = receberValor / 0.8583
+    let value17 = receberValor / 0.8523
+    let value18 = receberValor / 0.8463
 
     let parcela0 = "Não se aplica";
     let parcela1 = value1 / 1;
