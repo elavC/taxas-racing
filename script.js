@@ -9,13 +9,11 @@ const outrasBandeiras = document.getElementById('outras-bandeiras');
 function visaMaster () {
     bandeira.style.display = "none"
     main.style.display = "flex"
-    console.log("clicou")
 }
 
 function otherBandeira () {
     bandeira.style.display = "none"
     other.style.display = "flex"
-    console.log("clicou")
 }
 
 visaMasterBtn.addEventListener('click', visaMaster);
@@ -48,6 +46,10 @@ const OtherN15 = document.getElementById('other-n15')
 const OtherN16 = document.getElementById('other-n16')
 const OtherN17 = document.getElementById('other-n17')
 const OtherN18 = document.getElementById('other-n18')
+const OtherN19 = document.getElementById('other-n19')
+const OtherN20 = document.getElementById('other-n20')
+const OtherN21 = document.getElementById('other-n21')
+
 
 const OtherP0 = document.getElementById('other-p0');
 const OtherP1 = document.getElementById('other-p1');
@@ -68,30 +70,38 @@ const OtherP15 = document.getElementById('other-p15')
 const OtherP16 = document.getElementById('other-p16')
 const OtherP17 = document.getElementById('other-p17')
 const OtherP18 = document.getElementById('other-p18')
+const OtherP19 = document.getElementById('other-p19')
+const OtherP20 = document.getElementById('other-p20')
+const OtherP21 = document.getElementById('other-p21')
+
 
 
 function calcularOther () {
     let receberValorOther = parseFloat(receberOther.value);
 
     let Othervalue0 = receberValorOther * 100 / null
-    let Othervalue1 = receberValorOther * 100 / 96.89
-    let Othervalue2 = receberValorOther * 100 / 96.08
-    let Othervalue3 = receberValorOther * 100 / 95.51
-    let Othervalue4 = receberValorOther * 100 / 94.95
-    let Othervalue5 = receberValorOther * 100 / 94.39
-    let Othervalue6 = receberValorOther * 100 / 93.84
-    let Othervalue7 = receberValorOther * 100 / 93.09
-    let Othervalue8 = receberValorOther * 100 / 92.54
-    let Othervalue9 = receberValorOther * 100 / 92
-    let Othervalue10 = receberValorOther * 100 / 91.46
-    let Othervalue11 = receberValorOther * 100 / 90.93
-    let Othervalue12 = receberValorOther * 100 / 90.40
-    let Othervalue13 = receberValorOther * 100 / 89.28
-    let Othervalue14 = receberValorOther * 100 / 88.75
-    let Othervalue15 = receberValorOther * 100 / 88.14
-    let Othervalue16 = receberValorOther * 100 / 87.73
-    let Othervalue17 = receberValorOther * 100 / 87.21
-    let Othervalue18 = receberValorOther * 100 / 86.71
+    let Othervalue1 = receberValorOther * 100 / 97.13
+    let Othervalue2 = receberValorOther * 100 / 96.14
+    let Othervalue3 = receberValorOther * 100 / 95.59
+    let Othervalue4 = receberValorOther * 100 / 95.04
+    let Othervalue5 = receberValorOther * 100 / 93.94
+    let Othervalue6 = receberValorOther * 100 / 93.94
+    let Othervalue7 = receberValorOther * 100 / 92.98
+    let Othervalue8 = receberValorOther * 100 / 92.43
+    let Othervalue9 = receberValorOther * 100 / 91.88
+    let Othervalue10 = receberValorOther * 100 / 91.33
+    let Othervalue11 = receberValorOther * 100 / 90.78
+    let Othervalue12 = receberValorOther * 100 / 90.23
+    let Othervalue13 = receberValorOther * 100 / 89.68
+    let Othervalue14 = receberValorOther * 100 / 89.13
+    let Othervalue15 = receberValorOther * 100 / 88.58
+    let Othervalue16 = receberValorOther * 100 / 88.03
+    let Othervalue17 = receberValorOther * 100 / 87.48
+    let Othervalue18 = receberValorOther * 100 / 86.93
+    let Othervalue19 = receberValorOther * 100 / 86.38
+    let Othervalue20 = receberValorOther * 100 / 85.83
+    let Othervalue21 = receberValorOther * 100 / 85.28
+
 
     let Otherparcela0 = "Não se aplica";
     let Otherparcela1 = Othervalue1 / 1;
@@ -112,6 +122,10 @@ function calcularOther () {
     let Otherparcela16 = Othervalue16 / 16;
     let Otherparcela17 = Othervalue17 / 17;
     let Otherparcela18 = Othervalue18 / 18;
+    let Otherparcela19 = Othervalue18 / 19;
+    let Otherparcela20 = Othervalue18 / 20;
+    let Otherparcela21 = Othervalue18 / 21;
+
 
 
 
@@ -134,6 +148,10 @@ function calcularOther () {
     OtherN16.innerHTML = Othervalue16.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     OtherN17.innerHTML = Othervalue17.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     OtherN18.innerHTML = Othervalue18.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    OtherN19.innerHTML = Othervalue19.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    OtherN20.innerHTML = Othervalue20.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    OtherN21.innerHTML = Othervalue21.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
 
     OtherP0.innerHTML = Otherparcela0.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     OtherP1.innerHTML = Otherparcela1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
@@ -154,6 +172,10 @@ function calcularOther () {
     OtherP16.innerHTML = Otherparcela16.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     OtherP17.innerHTML = Otherparcela17.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     OtherP18.innerHTML = Otherparcela18.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    OtherP19.innerHTML = Otherparcela19.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    OtherP20.innerHTML = Otherparcela20.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    OtherP21.innerHTML = Otherparcela21.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
 };
 
 sendBtnOther.addEventListener('click', calcularOther)
@@ -190,6 +212,9 @@ const n15 = document.getElementById('n15');
 const n16 = document.getElementById('n16');
 const n17 = document.getElementById('n17');
 const n18 = document.getElementById('n18');
+const n19 = document.getElementById('n19');
+const n20 = document.getElementById('n20');
+const n21 = document.getElementById('n21');
 
 const p0 = document.getElementById('p0');
 const p1 = document.getElementById('p1');
@@ -210,30 +235,37 @@ const p15 = document.getElementById('p15');
 const p16 = document.getElementById('p16');
 const p17 = document.getElementById('p17');
 const p18 = document.getElementById('p18');
+const p19 = document.getElementById('p19');
+const p20 = document.getElementById('p20');
+const p21 = document.getElementById('p21');
 
 
 function calcular () {
     let receberValor = parseFloat(receber.value);
 
     let value0 = receberValor * 100 / null
-    let value1 = receberValor * 100 / 96.89
-    let value2 = receberValor * 100 / 96.08
-    let value3 = receberValor * 100 / 95.51
-    let value4 = receberValor * 100 / 94.95
-    let value5 = receberValor * 100 / 94.39
-    let value6 = receberValor * 100 / 93.84
-    let value7 = receberValor * 100 / 93.09
-    let value8 = receberValor * 100 / 92.54
-    let value9 = receberValor * 100 / 92
-    let value10 = receberValor * 100 / 91.46
-    let value11 = receberValor * 100 / 90.93
-    let value12 = receberValor * 100 / 90.40
-    let value13 = receberValor * 100 / 89.28
-    let value14 = receberValor * 100 / 88.75
-    let value15 = receberValor * 100 / 88.14
-    let value16 = receberValor * 100 / 87.73
-    let value17 = receberValor * 100 / 87.21
-    let value18 = receberValor * 100 / 86.71
+    let value1 = receberValor * 100 / 97.13
+    let value2 = receberValor * 100 / 96.14
+    let value3 = receberValor * 100 / 95.59
+    let value4 = receberValor * 100 / 95.04
+    let value5 = receberValor * 100 / 93.94
+    let value6 = receberValor * 100 / 93.94
+    let value7 = receberValor * 100 / 92.98
+    let value8 = receberValor * 100 / 92.43
+    let value9 = receberValor * 100 / 91.88
+    let value10 = receberValor * 100 / 91.33
+    let value11 = receberValor * 100 / 90.78
+    let value12 = receberValor * 100 / 90.23
+    let value13 = receberValor * 100 / 89.68
+    let value14 = receberValor * 100 / 89.13
+    let value15 = receberValor * 100 / 88.58
+    let value16 = receberValor * 100 / 88.03
+    let value17 = receberValor * 100 / 87.48
+    let value18 = receberValor * 100 / 86.93
+    let value19 = receberValor * 100 / 86.38
+    let value20 = receberValor * 100 / 85.83
+    let value21 = receberValor * 100 / 85.28
+
 
     let parcela0 = "Não se aplica";
     let parcela1 = value1 / 1;
@@ -254,6 +286,10 @@ function calcular () {
     let parcela16 = value16 / 16;
     let parcela17 = value17 / 17;
     let parcela18 = value18 / 18;
+    let parcela19 = value18 / 19;
+    let parcela20 = value18 / 20;
+    let parcela21 = value18 / 21;
+
 
 
     n0.innerHTML = value0.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
@@ -275,6 +311,9 @@ function calcular () {
     n16.innerHTML = value16.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     n17.innerHTML = value17.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     n18.innerHTML = value18.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    n19.innerHTML = value19.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    n20.innerHTML = value20.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    n21.innerHTML = value21.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 
 
     p0.innerHTML = parcela0.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
@@ -296,6 +335,9 @@ function calcular () {
     p16.innerHTML = parcela16.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     p17.innerHTML = parcela17.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     p18.innerHTML = parcela18.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    p19.innerHTML = parcela19.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    p20.innerHTML = parcela20.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    p21.innerHTML = parcela21.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 }
 
 sendBtn.addEventListener('click', calcular)
