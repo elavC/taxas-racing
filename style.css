@@ -6,14 +6,25 @@
 body {
     background-color: black;
     background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #024968, #07034b, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom,  #000000, #07034b, #160797); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     height: 130vh;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     display: flex;   
+    flex-direction: column;
     width: 100%;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 120px;
+    margin: auto;
+    margin-top: 48px;
 }
 
 .bandeiras {
